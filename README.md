@@ -3,5 +3,8 @@ These are for the arch initcpio system, the common method of passing through dev
 ```
 git clone https://github.com/matsto641/identicalgpu-vfio-hooks.git
 cd ident*git
-cp [usr,etc] /
+cp -rv usr /
+cp -rv usr /
+mkinitcpio -Pv
+grub-mkconfig -ov /boot/grub/grub.cfg
 ```
