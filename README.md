@@ -5,6 +5,6 @@ git clone https://github.com/matsto641/identicalgpu-vfio-hooks.git
 cd ident*git
 cp -rv usr /
 cp -rv usr /
-mkinitcpio -Pv
-grub-mkconfig -ov /boot/grub/grub.cfg
+mkinitcpio -P
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
