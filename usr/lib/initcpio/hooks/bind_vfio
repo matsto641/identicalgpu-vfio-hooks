@@ -1,0 +1,7 @@
+#!/usr/bin/ash
+
+run_hook() {
+echo "vfio-pci" > /sys/bus/pci/devices/0000:28:00.0/driver_override
+echo "vfio-pci" > /sys/bus/pci/devices/0000:28:00.1/driver_override
+modprobe -i vfio-pci
+}
