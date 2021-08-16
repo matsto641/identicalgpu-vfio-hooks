@@ -1,1 +1,1 @@
-
+### These are for the arch initcpio system, the common method of passingthrough devices to VFIO relies on the vendor id from lspci that is not unique to equipment from the same manufacturer of the same model.
